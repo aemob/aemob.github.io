@@ -24,42 +24,37 @@
 
 	<!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-	<link href="static/css/cover.css" rel="stylesheet">
 	<title>aemob play with aemob</title>
 
 	<style>
-		body { background: url(https://picsum.photos/640/640/?blur&random); background-size: cover; }
+		.hero { 
+			background: url(https://picsum.photos/16/16/?blur&random); 
+			background-size: cover; 
+			text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+		}
+		.hero img { max-width: 100%; }
+		.hero em { color: white; }
+		.words { max-width: 50%; min-width: 280px; margin: 0 auto; }
 	</style>
 </head>
 <body>
-	<div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
-	  <header class="masthead mb-auto">
-	    <div class="inner">
-	      <h3 class="masthead-brand text-center"><img src="static/logo/aemob_logo_64.png" width="48px" alt=""></h3>
-	      <nav class="nav nav-masthead justify-content-center">
-	        <a class="nav-link active" href="#">aemob</a>
-	        <a class="nav-link" href="#"></a>
-	      </nav>
-	    </div>
-	  </header>
-
-	  <main role="main" class="inner cover">
-	    <div class="text-center"><img src="static/logo/aemob_logo_512.png" width="320" alt=""></div>
-	    <h1 class="cover-heading text-center">Mob</h1>
-	    <p class="lead">
-	    	喽啰（Mob、Mobile）或怪物（Monster），为一个电子游戏术语，指在电玩游戏和桌上游戏中会攻击玩家的非玩家角色（NPC），是游戏敌人的一种。
-	    </p>
-	    <div class="text-center"><img src="static/logo/aemob_logo_moborg_1024.png" width="256" alt=""></div>
-	    <h5 class="cover-heading text-center">
-	    	<em>aemob is <code>a</code> <code>e</code>thernet <code>mob</code></em>
-	    </h5>
-	  </main>
-
-	  <footer class="mastfoot mt-auto">
-	    <div class="inner text-center">
-	      <p>aemob.com</p>
-	    </div>
-	  </footer>
+	<div class="hero">
+		<div class="container text-center py-5">
+			<img src="static/logo/aemob_logo_512.png" alt="">
+			<h5 class="cover-heading text-center">
+	    		<em>aemob is <code>a</code> <code>e</code>thernet <code>mob</code></em>
+	    	</h5>
+		</div>
 	</div>
+	<div class="container my-5">
+		<div class="words">
+			<h1 class="cover-heading text-center">Mob</h1>
+			<p class="lead text-center">
+		    	喽啰（Mob、Mobile）或怪物（Monster），为一个电子游戏术语，指在电玩游戏和桌上游戏中会攻击玩家的非玩家角色（NPC），是游戏敌人的一种。
+		    </p>
+		</div>
+		<div class="text-center"><img src="static/logo/aemob_logo_moborg_1024.png" width="256" alt=""></div>
+	</div>
+
 </body>
 </html>
